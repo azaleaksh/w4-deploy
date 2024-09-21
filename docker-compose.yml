@@ -1,6 +1,4 @@
-version: '3.8'
-
-
+version: '3.8'  
 
 services:
   my-app:
@@ -9,4 +7,5 @@ services:
       args:
         STUDENT_NAME: "Azalea Keisha"
         STUDENT_NIM: "00000076267"
-    ports: "8080:3000"  
+    ports:
+      - "8080:3000"  
